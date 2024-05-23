@@ -1,8 +1,26 @@
-# React + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Guest Room Booking Application allows the customers to book the rooms and the house owners to list their properties. The system supports user authentication, making it easy to manage bookings and listings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Customer Features:
+  - View available rooms
+  - Check room details
+  - Make reservations
+- House Owner Features:
+  - List new rooms
+  - Manage existing listings
+- User Authentication:
+  - Signup and login functionalities
+
+## Install dependencies:
+     npm install
+## Start the server:
+     npm start
+
+Project Structure
+Customer.jsx: Component for customers to view and book rooms.
+HouseOwner.jsx: Component for house owners to list and manage rooms.
+Login.jsx: Component for user login.
+Signup.jsx: Component for user signup.
