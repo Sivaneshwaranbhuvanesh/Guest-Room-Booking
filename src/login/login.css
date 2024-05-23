@@ -1,0 +1,49 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.login-page-container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url('login-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.login-form-container{
+  border-radius: 2rem;
+  width: 18rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto;
+  padding: 2rem;
+  border: 1px solid rgb(116, 116, 146);
+  backdrop-filter: blur(10px);
+  color: rgb(240, 240, 240);
+}
+.login-email{
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: .6rem;
+  border: 1px solid rgb(68, 66, 66);
+}
+
+#login:hover{
+  background-color: rgb(14, 14, 138);
+  transition: all 1s;
+  color: white;
+}
+.login-emails{
+  border: none;
+  margin-top: 1rem;
+}
+.already-login{
+  margin-top: 1rem;
+}
+.already-login>a{
+  text-decoration: none;
+}

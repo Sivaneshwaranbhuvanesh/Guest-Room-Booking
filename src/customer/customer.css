@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.customer-container{
+}
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+}
+.header-container {
+  background-image: url('hotel-background.jpeg'),linear-gradient(to right,rgb(32, 30, 30),rgb(175, 174, 174));
+  width: 97%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-blend-mode: overlay; /* Blend the background image with the color */
+  font-size: xx-large;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  position: relative;
+}
+.header-content{
+  position: absolute;
+  left: 20px;
+  top:1rem;
+  color: white;
+  text-align: center;
+}
+.rooms-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.date-picker-container{
+  display: inline;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.check-in{
+  padding: .4rem;
+  border:1px solid rgb(68, 67, 67);
+  border-radius: 10px;
+}
+.check-out{
+  padding: .4rem;
+  border:1px solid rgb(61, 59, 59);
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+.availability-button{
+  margin-top: 2rem;
+  padding: .4rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 8rem;
+  cursor: pointer;
+}
+.availability-button:hover{
+  background-color: rgb(38, 38, 221);
+  color: white;
+  transition: all .3s;
+}
+.display_rooms_container{
+  width: 100%;
+  padding-left: 15rem;
+  margin-top: 2rem;
+  position: relative;
+}
+.display_rooms{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.display_rooms>th,td{
+  border: 1px solid rgb(206, 200, 200);
+  padding: 1rem;
+  vertical-align: middle;
+  text-align: center;
+}
+.room-name{
+  border-top: none;
+}
+.book{
+  padding: .4rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.view-details{
+  padding: .4rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selected-room-details{
+  padding-left: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+.close-button{
+  background-color: blue;
+  width: 70px;
+  text-align: center;
+  color: aliceblue;
+  padding: .6rem;
+  border-radius: 5px;
+}
+.formm-container{
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  background-color: rgb(77, 77, 163);
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+#checkin,#checkout,#name,#roomtype,#submit{
+  margin-top: 2rem;
+  padding: .4rem;
+  margin-left: 1rem;
+  width: 10rem;
+}

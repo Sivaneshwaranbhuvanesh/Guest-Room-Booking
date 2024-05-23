@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.room-manager {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.room-manager h1, .room-manager h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.room-manager-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.room-manager-containers {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.room-manager-containers[type="file"] {
+  border: none;
+}
+
+.room-manager-container button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #17a2b8; /* Updated button color */
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-manager-container button:hover {
+  background-color: #138496; /* Updated hover color */
+}
+
+/* Table Styles */
+.display-rooms-containers {
+  margin-top: 30px;
+}
+
+.display-rooms-containers table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.display-rooms-containers th, .display-rooms-containers td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.display-rooms-containers th {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.display-rooms-containers td img {
+  border-radius: 8px;
+}
+
+.display-rooms-containers button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #17a2b8; /* Updated button color */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.display-rooms-containers button.edit {
+  background-color: #078fff; /* Updated button color */
+  margin-top: 1rem;
+}
+
+.display-rooms-containers button.delete {
+  background-color: #dc3545; /* Updated button color */
+  margin: 1rem auto;
+}
+
+.display-rooms-containers button:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .room-manager {
+    padding: 15px;
+  }
+
+  .room-manager-container {
+    padding: 15px;
+  }
+
+  .display-rooms-containers th, .display-rooms-containers td {
+    font-size: 14px;
+  }
+
+  .room-manager-container button, .display-rooms-containers button {
+    font-size: 14px;
+  }
+}

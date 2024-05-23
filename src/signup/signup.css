@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.signup-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('signup-form-backround-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.form_containers{
+    display: flex;
+    flex-direction: column;
+    margin:4rem  auto;
+    padding: 2rem;
+    border:1px solid rgb(107, 102, 102);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+}
+.form_containers input{
+    padding: .5rem;
+    width: 18rem;
+    margin-top: .1rem;
+    border-radius: .4rem;
+    border: groove;
+}
+.form_containers label{
+margin-top: 1rem;
+}
+.select{
+    background-color: rgb(255, 249, 249);
+    padding: .3rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    width: fit-content;
+    text-align: center;
+    place-content: center;
+}
+.sign:hover{
+    cursor: pointer;
+}
+.already{
+    font-size:.9rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.already a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: antiquewhite;
+}
